@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtWorkoutSummary"
+        android:textAlignment="center"
+        android:textSize="@dimen/txtSplash"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageSummary"
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:contentDescription="@string/btnWorkoutSummary"
+        app:srcCompat="@drawable/summary" />
+
+    <TextView
+        android:id="@+id/weightInputTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultWeight" />
+
+    <TextView
+        android:id="@+id/durationInputTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultDuration" />
+
+    <TextView
+        android:id="@+id/intensityInputTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultIntensity" />
+
+    <TextView
+        android:id="@+id/workoutStartTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultStartTime" />
+
+    <TextView
+        android:id="@+id/workoutEndTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultEndTime" />
+
+</LinearLayout>

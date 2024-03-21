@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAudio"
+        android:textAlignment="center"
+        android:textSize="@dimen/running_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:contentDescription="@string/btnAudio"
+        app:srcCompat="@drawable/music1" />
+
+    <Button
+        android:id="@+id/track1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTrack1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:contentDescription="@string/txtAudio"
+        app:srcCompat="@drawable/music2" />
+
+    <Button
+        android:id="@+id/track2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTrack2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:contentDescription="@string/txtAudio"
+        app:srcCompat="@drawable/music3" />
+
+    <Button
+        android:id="@+id/track3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTrack3" />
+
+</LinearLayout>

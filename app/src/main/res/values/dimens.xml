@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txtSplash">40sp</dimen>
+    <dimen name="running_size">30sp</dimen>
+</resources>

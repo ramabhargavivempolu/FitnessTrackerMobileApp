@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Fitness Tracker Mobile App</string>
+    <string name="Running_Description">Running Image</string>
+    <string name="titleRunning">Running</string>
+    <string name="txtWeight">Enter your weight.</string>
+    <string name="txtDuration">Enter workout duration in (Hours).</string>
+    <string name="btnTracking">Start Tracking</string>
+    <string name="btnSchedule">Schedule Workout</string>
+    <string name="btnAudio">Play Workout Audio</string>
+    <string name="btnConvertUnits">Convert Units</string>
+    <string name="txtTrack1">Play Track 1</string>
+    <string name="txtTrack2">Play Track 2</string>
+    <string name="txtTrack3">Play Track 3</string>
+    <string name="txtInput">Give Input</string>
+    <string name="btnconvert">Convert</string>
+    <string name="resultWeight">Weight:</string>
+    <string name="resultDuration">Duration:</string>
+    <string name="resultIntensity">Intensity:</string>
+    <string name="resultStartTime">StartTime</string>
+    <string name="resultEndTime">End Time:</string>
+    <string name="btnWorkoutSummary">"View Workout Summary "</string>
+    <string name="Units_Description">Convert Units.</string>
+    <string name="txtAudio">"Play Audio "</string>
+    <string name="fitnessImage">Fitness Image</string>
+    <string name="txtListMenu">Fitness Menu</string>
+    <string name="txtWorkoutSummary">Workout Summary</string>
+    <string name="open_web_page">Open Web Page</string>
+
+    <string-array name="intensity_array">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="units_array">
+        <item>Kilograms to Pounds</item>
+        <item>Pounds to Kilograms</item>
+        <item>Kilometers to Miles</item>
+        <item>Miles to Kilometers</item>
+    </string-array>
+
+</resources>
